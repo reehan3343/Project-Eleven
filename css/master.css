@@ -1,0 +1,43 @@
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-family: "Urbanist", sans-serif;
+}
+.gray {
+    color: #35404e !important;
+}
+.orange {
+    color: #ff7851;
+}
+.btn_one a {
+    background-color: #4786ee;
+    transition: 0.3s;
+}
+
+
+/* Navigation CSS Start */
+.navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+@media screen and (max-width: 768px) {
+    .navbar .nav-link {
+        border-bottom: 1px solid #ddd;
+    }
+    .navbar .nav-link, .btn_one a {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .navbar .nav-link, .btn_one a {
+        font-size: 12px;
+    }
+}
+/* Navigation CSS End */

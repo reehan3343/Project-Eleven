@@ -1,0 +1,111 @@
+/* Header CSS Start */
+header {
+    background: url(../images/header/1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0 80px;
+}
+header h1, header .achievement h2 {
+    font-size: 58px;
+}
+header .achievement {
+    padding-top: 100px;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 110px 0 40px;
+    }
+    header h1, header .achievement h2 {
+        font-size: 38px;
+    }
+    header .achievement {
+        padding-top: 60px;
+    }
+    header p {
+        font-size: 14px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    header h1, header .achievement h2 {
+        font-size: 24px;
+    }
+    header .achievement {
+        padding-top: 50px;
+    }
+    header p {
+        font-size: 12px !important;
+    }
+}
+/* Header CSS End */
+
+
+/* Services CSS Start */
+.service {
+    padding: 100px 0;
+}
+.service .item {
+    padding: 40px;
+}
+.service .item .icon {
+    width: 82px;
+    height: 82px;
+}
+.service .item .icon img {
+    width: 62px;
+}
+.service .one {
+    background-color: #4786ee33;
+}
+.service .one .icon {
+    background-color: #4786ee;
+}
+.service .two {
+    background-color: #ff785133;
+}
+.service .two .icon {
+    background-color: #ff7851;
+}
+.service .three {
+    background-color: #8859e633;
+}
+.service .three .icon {
+    background-color: #8859e6;
+}
+@media screen and (max-width: 768px) {
+    .service {
+        padding: 60px 0;
+    }
+    .service h1 {
+        font-size: 38px;
+    }
+    .service h3 {
+        font-size: 22px;
+    }
+    .service p {
+        font-size: 14px;
+        line-height: 24px !important;
+    }
+    .service .item {
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .service {
+        padding: 38px 0;
+    }
+    .service h1 {
+        font-size: 24px;
+    }
+    .service h3 {
+        font-size: 18px;
+    }
+    .service p {
+        font-size: 12px;
+        line-height: 20px !important;
+    }
+    .service .item {
+        padding: 28px;
+    }
+}
+/* Services CSS End */
