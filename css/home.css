@@ -109,3 +109,127 @@ header .achievement {
     }
 }
 /* Services CSS End */
+
+
+/* About Us CSS Start */
+.about {
+    padding: 100px 0;
+    background-color: #ff78511a;
+}
+.about ul li i {
+    color: #4786ee;
+}
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 60px 0;
+    }
+    .about h1 {
+        font-size: 38px;
+    }
+    .about p, .about ul li {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .about {
+        padding: 38px 0;
+    }
+    .about h1 {
+        font-size: 24px;
+    }
+    .about p, .about ul li {
+        font-size: 12px;
+    }
+}
+/* About Us CSS End */
+
+
+/* Why Choose Us CSS Start */
+.wcu {
+    padding: 100px 0;
+}
+.wcu .wrapper .image img {
+    width: 160px;
+}
+.wcu ul li .point h6 {
+    background-color: #ff7851;
+    width: 36px;
+    height: 36px;
+}
+.wcu ul li .point .blue {
+    background-color: #4786ee;
+}
+.wcu .brands {
+    margin-top: 100px;
+}
+.wcu .brands .logo img {
+    width: 140px;
+}
+@media screen and (max-width: 768px) {
+    .wcu {
+        padding: 60px 0;
+    }
+    .wcu h1 {
+        font-size: 38px;
+    }
+    .wcu p, .wcu ul li, .wcu .btn_three a {
+        font-size: 14px;
+    }
+    .wcu .brands {
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .wcu {
+        padding: 38px 0;
+    }
+    .wcu h1 {
+        font-size: 24px;
+    }
+    .wcu p, .wcu ul li, .wcu .btn_three a {
+        font-size: 12px;
+    }
+    .wcu .brands {
+        margin-top: 50px;
+    }
+}
+/* Why Choose Us CSS End */
+
+
+/* Testimonial CSS Start */
+.testimonial {
+    padding: 100px 0;
+    background-color: #8559e61a;
+}
+.testimonial .icon img {
+    width: 100px;
+}
+@media screen and (max-width: 768px) {
+    .testimonial {
+        padding: 60px 0;
+    }
+    .testimonial p {
+        font-size: 14px;
+    }
+    .testimonial h3 {
+        font-size: 22px;
+    }
+    .testimonial h4 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .testimonial {
+        padding: 38px 0;
+    }
+    .testimonial p {
+        font-size: 12px;
+    }
+    .testimonial h3 {
+        font-size: 20px;
+    }
+    .testimonial h4 {
+        font-size: 18px;
+    }
+}
+/* Testimonial CSS End */

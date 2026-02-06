@@ -15,7 +15,25 @@
 }
 .btn_one a {
     background-color: #4786ee;
-    transition: 0.3s;
+}
+.btn_two {
+    border: 1px solid #000;
+    width: 33px;
+    height: 33px;
+    transition: 0.4s;
+}
+.btn_two span {
+    transition: 0.4s;
+}
+.btn_two:hover {
+    width: 130px;
+}
+.btn_two:hover span {
+    display: block !important;
+}
+.btn_three a {
+    background-color: #0000000d;
+    transition: 0.4s;
 }
 
 
@@ -26,6 +44,7 @@
     left: 0;
     width: 100%;
     z-index: 9999;
+    box-shadow: 0 0 10px 0 #0000003b;
 }
 @media screen and (max-width: 768px) {
     .navbar .nav-link {
