@@ -33,7 +33,13 @@
 }
 .btn_three a {
     background-color: #0000000d;
+}
+.btn_four {
+    background-color: #ffffff20;
     transition: 0.4s;
+}
+.btn_four:hover {
+    background-color: #ffffff40;
 }
 
 

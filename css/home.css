@@ -233,3 +233,104 @@ header .achievement {
     }
 }
 /* Testimonial CSS End */
+
+
+/* Pricing CSS Start */
+.pricing {
+    padding: 100px 0;
+}
+.pricing .headline {
+    max-width: 526px;
+}
+.pricing .item {
+    padding: 30px;
+}
+.pricing .item h2 {
+    font-size: 46px;
+}
+.pricing .item .image img {
+    width: 100px;
+}
+.pricing .one {
+    background-color: #4786ee;
+}
+.pricing .two {
+    background-color: #ff7851;
+}
+.pricing .three {
+    background-color: #8859e6;
+}
+@media screen and (max-width: 768px) {
+    .pricing {
+        padding: 60px 0;
+    }
+    .pricing .headline h1, .pricing .item h2 {
+        font-size: 38px;
+    }
+    .pricing p, .pricing ul li {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .pricing {
+        padding: 38px 0;
+    }
+    .pricing .headline h1, .pricing .item h2 {
+        font-size: 24px;
+    }
+    .pricing p, .pricing ul li {
+        font-size: 12px;
+    }
+}
+/* Pricing CSS End */
+
+
+/* FAQ CSS Start */
+.faq {
+    padding: 100px 0;
+    background-color: #4786ee1a;
+}
+.faq .accordion-item, .faq .accordion-button {
+    background-color: #00000000 !important;
+}
+.faq .accordion-button:focus {
+    box-shadow: none;
+    border: 0;
+    color: #000;
+}
+@media screen and (max-width: 768px) {
+    .faq {
+        padding: 60px 0;
+    }
+    .faq h1 {
+        font-size: 38px;
+    }
+    .faq p, .faq .more, .faq .accordion-button, .faq .accordion-body {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .faq {
+        padding: 38px 0;
+    }
+    .faq h1 {
+        font-size: 24px;
+    }
+    .faq p, .faq .more {
+        font-size: 12px;
+    }
+    .faq .accordion-button, .faq .accordion-body {
+        font-size: 10px;
+    }
+}
+/* FAQ CSS End */
+
+
+/* Contact Us CSS Start */
+.contact {
+    padding: 100px 0;
+}
+.contact .headline {
+    max-width: 491px;
+}
+/* Contact Us CSS End */
