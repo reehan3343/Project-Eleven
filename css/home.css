@@ -148,8 +148,11 @@ header .achievement {
 .wcu {
     padding: 100px 0;
 }
+.wcu .wrapper .image {
+    max-width: 160px;
+}
 .wcu .wrapper .image img {
-    width: 160px;
+    width: 100%;
 }
 .wcu ul li .point h6 {
     background-color: #ff7851;
@@ -162,8 +165,11 @@ header .achievement {
 .wcu .brands {
     margin-top: 100px;
 }
+.wcu .brands .logo {
+    max-width: 140px;
+}
 .wcu .brands .logo img {
-    width: 140px;
+    width: 100%;
 }
 @media screen and (max-width: 768px) {
     .wcu {
@@ -201,8 +207,11 @@ header .achievement {
     padding: 100px 0;
     background-color: #8559e61a;
 }
+.testimonial .icon {
+    max-width: 100px;
+}
 .testimonial .icon img {
-    width: 100px;
+    width: 100%;
 }
 @media screen and (max-width: 768px) {
     .testimonial {
