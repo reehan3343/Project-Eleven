@@ -1,0 +1,96 @@
+/* Header CSS Start */
+header {
+    background: url(../images/header/3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 30px;
+}
+header h1 {
+    font-size: 58px;
+}
+header .category p {
+    font-size: 14px;
+}
+header .image {
+    max-width: 400px;
+}
+header .image img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 38px;
+    }
+    header p {
+        font-size: 14px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        padding: 120px 0 50px;
+    }
+    header p {
+        font-size: 12px !important;
+    }
+}
+/* Header CSS End */
+
+
+/* Contact Us CSS Start */
+.contact {
+    padding: 100px 0;
+}
+.contact .headline p {
+    max-width: 350px;
+}
+.contact .info .icon {
+    background-color: #ff7851;
+    width: 64px;
+    height: 64px;
+}
+.contact form {
+    padding: 40px;
+    background-color: #f8f9fa;
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        padding: 60px 0;
+    }
+    .contact form .input_group input, .contact form .input_group textarea, .contact .headline p, .contact p {
+        font-size: 14px;
+    }
+    .contact h5 {
+        font-size: 18px;
+    }
+    .contact .headline h1 {
+        font-size: 38px;
+    }
+    .contact form {
+        padding: 30px;
+    }
+    .contact form h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contact {
+        padding: 38px 0;
+    }
+    .contact form .input_group input, .contact form .input_group textarea, .contact .headline p, .contact p {
+        font-size: 12px;
+    }
+    .contact h5 {
+        font-size: 16px;
+    }
+    .contact .headline h1 {
+        font-size: 24px;
+    }
+    .contact form {
+        padding: 26px;
+    }
+    .contact form h3 {
+        font-size: 18px;
+    }
+}
+/* Contact Us CSS End */

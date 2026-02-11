@@ -1,0 +1,102 @@
+/* Header CSS Start */
+header {
+    background: url(../images/header/3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 30px;
+}
+header h1 {
+    font-size: 58px;
+}
+header .category p {
+    font-size: 14px;
+}
+header .image {
+    max-width: 400px;
+}
+header .image img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 38px;
+    }
+    header p {
+        font-size: 14px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        padding: 120px 0 50px;
+    }
+    header p {
+        font-size: 12px !important;
+    }
+}
+/* Header CSS End */
+
+
+/* Blog CSS Start */
+.blog {
+    padding: 100px 0;
+}
+.blog .item {
+    overflow: hidden;
+}
+.blog .image {
+    position: relative;
+    overflow: hidden;
+}
+.blog .image .date {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    background-color: #4786ee;
+}
+.blog .image img {
+    transition: 0.4s;
+}
+.blog .image img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.blog .texts {
+    background-color: #f8f9fa;
+    padding: 36px;
+}
+@media screen and (max-width: 768px) {
+    .blog {
+        padding: 60px 0;
+    }
+    .blog .texts {
+        padding: 28px;
+    }
+    .blog .image .date p, .blog .texts p {
+        font-size: 14px;
+    }
+    .blog .image .date h2 {
+        font-size: 24px;
+    }
+    .blog .texts h5 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .blog {
+        padding: 38px 0;
+    }
+    .blog .texts {
+        padding: 20px;
+    }
+    .blog .image .date p, .blog .texts p {
+        font-size: 12px;
+    }
+    .blog .image .date h2 {
+        font-size: 22px;
+    }
+    .blog .texts h5 {
+        font-size: 14px;
+    }
+}
+/* Blog CSS End */
