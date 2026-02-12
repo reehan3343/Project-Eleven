@@ -44,3 +44,171 @@ header .image img {
     }
 }
 /* Header CSS End */
+
+
+/* What's Included CSS Start */
+.wi {
+    padding: 100px 0;
+    background-color: #ff785133;
+}
+.wi .headline h1 {
+    font-size: 48px;
+}
+.wi .item {
+    padding: 40px;
+}
+@media screen and (max-width: 768px) {
+    .wi {
+        padding: 60px 0;
+    }
+    .wi .headline h1 {
+        font-size: 38px;
+    }
+    .wi .item {
+        padding: 36px;
+    }
+    .wi .item h5 {
+        font-size: 16px;
+    }
+    .wi .item p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .wi {
+        padding: 38px 0;
+    }
+    .wi .headline h1 {
+        font-size: 24px;
+    }
+    .wi .item {
+        padding: 26px;
+    }
+    .wi .item h5 {
+        font-size: 14px;
+    }
+    .wi .item p {
+        font-size: 12px;
+    }
+}
+/* What's Included CSS End */
+
+
+/* Process CSS Start */
+.process {
+    padding: 100px 0;
+}
+.process .headline h1 {
+    font-size: 48px;
+}
+.process .item .icon {
+    width: 70px;
+    height: 70px;
+    background-color: #4786ee;
+}
+@media screen and (max-width: 768px) {
+    .process {
+        padding: 60px 0;
+    }
+    .process .headline h1 {
+        font-size: 38px;
+    }
+    .process .item h5 {
+        font-size: 16px;
+    }
+    .process .item p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .process {
+        padding: 38px 0;
+    }
+    .process .headline h1 {
+        font-size: 24px;
+    }
+    .process .item h5 {
+        font-size: 14px;
+    }
+    .process .item p {
+        font-size: 12px;
+    }
+}
+/* Process CSS End */
+
+
+/* Keyword Research CSS Start */
+.kwr {
+    padding: 100px 0;
+    background-color: #8559e61a;
+}
+.kwr ul li i {
+    color: #4786ee;
+}
+@media screen and (max-width: 768px) {
+    .kwr {
+        padding: 60px 0;
+    }
+    .kwr h1 {
+        font-size: 38px;
+    }
+    .kwr p, .kwr ul li {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .kwr {
+        padding: 38px 0;
+    }
+    .kwr h1 {
+        font-size: 24px;
+    }
+    .kwr p, .kwr ul li {
+        font-size: 12px;
+    }
+}
+/* Keyword Research CSS End */
+
+
+/* Rank CSS Start */
+.rank {
+    padding: 100px 0;
+}
+.rank h1 {
+    font-size: 48px;
+}
+.rank .btn_one {
+    margin-top: 30px;
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    .rank {
+        padding: 60px 0;
+    }
+    .rank h1 {
+        font-size: 38px;
+    }
+    .rank p {
+        font-size: 14px;
+    }
+    .rank .btn_one {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .rank {
+        padding: 38px 0;
+    }
+    .rank h1 {
+        font-size: 24px;
+    }
+    .rank p {
+        font-size: 12px;
+    }
+    .rank .btn_one {
+        margin-top: 0;
+        font-size: 16px;
+    }
+}
+/* Rank CSS End */

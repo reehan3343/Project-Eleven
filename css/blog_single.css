@@ -1,0 +1,119 @@
+/* Header CSS Start */
+header {
+    background: url(../images/header/3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 30px;
+}
+header h1 {
+    font-size: 48px;
+}
+header .category p {
+    font-size: 14px;
+}
+header .image {
+    max-width: 400px;
+}
+header .image img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+    header p {
+        font-size: 12px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        padding: 120px 0 50px;
+    }
+    header p {
+        font-size: 11px !important;
+    }
+}
+/* Header CSS End */
+
+
+/* Article CSS Start */
+.article {
+    padding: 100px 0;
+}
+.article .tips .tip .number {
+    background-color: #4786ee;
+    width: 40px;
+    height: 40px;
+}
+.article .comments .comment h6, .article .comments .comment p, .article .comments .comment a, .article .posts .post .texts .date, .article .tags li a {
+    font-size: 14px;
+}
+.article .comments .comment .image {
+    max-width: 70px;
+}
+.article .posts .post .image {
+    max-width: 80px;
+}
+.article .comments .comment .image img, .article .posts .post .image img {
+    width: 100%;
+}
+.article .comments .comment .date {
+    color: #4786ee;
+}
+.article .comments .comment a {
+    transition: 0.4s;
+}
+.article .comments .comment a:hover {
+    color: #ff7851 !important;
+}
+.article .posts .post .texts h6 {
+    max-width: 300px;
+}
+.article .posts .post .texts .date .icon {
+    color: #4786ee;
+}
+.article .tags .tag {
+    background-color: #4786ee;
+    transition: 0.4s;
+}
+.article .tags .tag:hover {
+    background-color: #000;
+}
+@media screen and (max-width: 768px) {
+    .article {
+        padding: 60px 0;
+    }
+    .article p {
+        font-size: 14px;
+    }
+    .article .tips .tip .number {
+        width: 34px;
+        height: 34px;
+    }
+    .article .comments .comment h6, .article .comments .comment p, .article .comments .comment a, .article .posts .post .texts .date, .article .tags li a {
+        font-size: 12px;
+    }
+    .article h5, .article .tips h6 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .article {
+        padding: 38px 0;
+    }
+    .article p {
+        font-size: 12px;
+    }
+    .article .tips .tip .number {
+        width: 30px;
+        height: 30px;
+    }
+    .article .comments .comment h6, .article .comments .comment p, .article .comments .comment a, .article .posts .post .texts .date, .article .tags li a {
+        font-size: 10px;
+    }
+    .article h5, .article .tips h6 {
+        font-size: 14px;
+    }
+}
+/* Article CSS End */
